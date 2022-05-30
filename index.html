@@ -6,28 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Eupheme healthcare pvt ltd</title>
+    <script>
+
+    </script>
 </head>
 
 <body>
     <div class="header background">
         <nav class="navbar">
+            <div class="logo"> <img src="../eupheme/common/logo.png" alt=""></div>
             <ul class="navlist">
-                <div class="logo"> <img src="../eupheme/common/logo.png" alt=""></div>
-                <li> <a href="http://"> Home </a> </li>
-                <li><a href="http://"> Services </a> </li>
-                <li><a href="http://"> Contact </a></li>
-                <li><a href="http://"> About us </a></li>
+                <li> <a class="menuItems"> Home </a> </li>
+                <li><a class="menuItems"> Services </a> </li>
+                <li><a class="menuItems"> Contact </a></li>
+                <li><a class="menuItems"> About us </a></li>
             </ul>
+            <div class="burgerMain">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
         </nav>
+
 
 
         <section class="innerElement">
             <div class="FirstElement HeaderContent">
                 <p><i>“Time and health are two precious assets that we don’t recognize and </p>
-                <p>appreciate until they have beendepleted.”</i> -  – Denis Waitley  </p>
+                <p>appreciate until they have beendepleted.”</i> - – Denis Waitley </p>
         </section>
     </div>
+    <section class="bodyPart">
+        <div class="about bodyContent">
+            <p>A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
+                professionals with background of marketing/sales and manufacturing from to Pharma national &
+                multinational companies, joined hands together with motto of care & concern for healthy & longer life as
+                their guiding principle. Quality, availability within the affordable reach of the patient & complete
+                customer satisfaction are just a few mentions worthy factors that contributed immesely to our growth.
+            </p>
+        </div>
+        <div class="vision bodyContent centerAlignPara">
+            <p class="visionTitle">"Vision & Mission"</p>
+            <p><i>"Our vision is to be a global pharmaceutical company with increasing focus on innovative research and
+                    developed markets."</br>
+                    "Our Mission is to be a caring pharmaceutical company helping to enhance health through quality
+                    products."</i>
+            </p>
+        </div>
+        <div class="mission bodyContent">
+            <p>A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
+                professionals with background of marketing/sales and manufacturing from to Pharma national &
+                multinational companies, joined hands together with motto of care & concern for healthy & longer life as
+                their guiding principle. Quality, availability within the affordable reach of the patient & complete
+                customer satisfaction are just a few mentions worthy factors that contributed immesely to our growth.
+            </p>
+        </div>
+        <div class="product bodyContent">
+            <div class="productList">
+                <img src="./common/products.jpg" alt="" class="productImage">
+                <p> <b> Product 1</b></p>
+                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
+                    professionals with background of marketing/sales and manufacturing</p>
+            </div>
+            <div class="productList">
+                <img src="./common/products.jpg" alt="" class="productImage">
+                <p> <b> Product 2</b></p>
+                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
+                    professionals with background of marketing/sales and manufacturing</p>
+                
+            </div>
+            <div class="productList">
+                <img src="./common/products.jpg" alt="" class="productImage">
+                <p> <b> Product 3</b></p>
+                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
+                    professionals with background of marketing/sales and manufacturing</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>
+            Eupheme healthcare pvt Ltd © 2022 Auftritt Healthcare Pvt. Ltd. All Rights Reserved.
+        </p>
+    </footer>
 </body>
+<script>
+    const list = document.querySelector(".navlist")
+    const burger = document.querySelector(".burgerMain")
+    burger.addEventListener('click', () => {
+
+        list.classList.toggle('visible');
+    });
+
+    const nodeList = document.querySelectorAll('.menuItems');
+nodeList.forEach((items,index)=>{
+items.addEventListener('click', () => {
+
+        alert("Please wait till site get ready")
+    });
+});
+</script>
 
 </html>

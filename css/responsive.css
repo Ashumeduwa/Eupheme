@@ -1,0 +1,83 @@
+@media screen and (max-width: 592px) {
+    body {
+       
+    }
+
+    p.visionTitle {
+
+        /* font-size: 20px; */
+        padding-bottom: 8px;
+    }
+
+    .bodyContent {
+        padding: 8px;
+        /* font-size: 11px; */
+
+    }
+
+    .innerElement {
+        width: 90%;
+        height: 86%;
+    }
+
+    .background {
+        background: rgba(0, 0, 0, 0.7) url(../common/bg.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        height: 800px;
+        max-height: 70vw;
+        overflow: hidden;
+    }
+
+    .bodyPart {
+        margin-top: 8px;
+    }
+    .HeaderContent {
+    
+        margin-left: 16px;
+        margin-top: 30%;
+        font-size: 14px;
+    }
+
+    .navbar {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.7) url(../common/bg.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        min-height: 30px;
+    }
+
+    .logo {
+        width: 30%;
+        min-width: 90px;
+        /* align-self: flex-start; */
+    }
+
+    .navlist {
+
+        flex-direction: column;
+        /* display: none; */
+        transition: height 1s ease-out;
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .burgerMain {
+        display: block;
+    }
+    .hidden {
+        display: none;
+        
+    }
+    .visible{
+        /* display: block; */
+        height: 210px;
+
+    }
+    .bodyContent {
+        flex-direction: column;
+        width: 80%;
+        height: 60%;
+    }
+
+}
