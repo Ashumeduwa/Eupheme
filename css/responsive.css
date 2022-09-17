@@ -75,9 +75,13 @@
 
     }
     .bodyContent {
-        flex-direction: column;
+        /* flex-direction: column; */
+        overflow: scroll;
         width: 80%;
         height: 60%;
+        align-items: center;
+        justify-content: flex-start;
+        
     }
 
 }

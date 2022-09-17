@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Eupheme healthcare pvt ltd</title>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="header background ">
+        <nav class="navbar">
+            <div class="logo"> <img src="../Eupheme/common/logo.png" alt=""></div>
+            <ul class="navlist">
+                <li> <a class="menuItems"> Home </a> </li>
+                <li><a class="menuItems"> Services </a> </li>
+                <li><a class="menuItems"> Contact </a></li>
+                <li><a class="menuItems"> About us </a></li>
+            </ul>
+            <div class="burgerMain">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </nav>
+
+
+    </div>
+    <section class="bodyPart">
+       <p>asdasdasd</p>
+    </section>
+    <!-- <footer class="footer">
+        <p>
+            © 2022 Eupheme Healthcare Pvt. Ltd. All Rights Reserved.
+        </p>
+    </footer> -->
+</body>
+<script>
+    const list = document.querySelector(".navlist")
+    const burger = document.querySelector(".burgerMain")
+    burger.addEventListener('click', () => {
+
+        list.classList.toggle('visible');
+    });
+
+    const nodeList = document.querySelectorAll('.menuItems');
+    nodeList.forEach((items, index) => {
+        items.addEventListener('click', () => {
+
+            alert("Please wait till site get ready")
+        });
+    });
+</script>
+
+</html>

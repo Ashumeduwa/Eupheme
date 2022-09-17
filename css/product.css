@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* 
 body{
     font-size: 16px;
     color: #2e2e2e;
@@ -21,21 +21,17 @@ body{
     text-indent: 0;
     text-shadow: none;
     text-transform: none;
-    /* background: azure; */
     
-}
+} */
 
 
 
-.background {
-    background: rgba(0, 0, 0, 0.7) url(../common//bg.jpg);
+/* .background {
+
     background-size: cover;
     background-blend-mode: darken;
-    height: 500px;
-    max-height: 37vw;
     overflow: hidden;
-    
-}
+} */
 
 
 .logo {
@@ -59,7 +55,7 @@ body{
     justify-content: space-between;
     /* border-bottom: 0.1px solid gray; */
     width: 100%;
-    position: fixed;
+ 
     background: rgba(0, 0, 0, 0.7) url(../common/bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
@@ -106,13 +102,6 @@ body{
     color: gray;
 }
 
-.innerElement {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    align-items: center;
-    height: 86%;
-}
 
 .HeaderContent {
     /* background-color: yellow; */
@@ -129,7 +118,7 @@ body{
 
 /* Body part CSS starts here */
 
-.bodyPart {
+/* .bodyPart {
     margin-top: 16px;
     display: flex;
     flex-direction: column;
@@ -143,7 +132,7 @@ body{
 .bodyContent {
     padding: 16px;
 
-    background-color: white ;
+
     text-align: justify;
     margin: auto;
     width: 80%;
@@ -234,4 +223,4 @@ p.productDescription {
         border-bottom: 1px solid;
         /* border-style: groove; */
         border-bottom-style: groove;
-    }
+    } */

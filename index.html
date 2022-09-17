@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <div class="header background">
+    <div class="header background ">
         <nav class="navbar">
-            <div class="logo"> <img src="../Eupheme/common/logo.png" alt=""></div>
+            <div class="logo"> <img src="/common/logo.png" alt=""></div>
             <ul class="navlist">
                 <li> <a class="menuItems"> Home </a> </li>
                 <li><a class="menuItems"> Services </a> </li>
@@ -34,54 +34,84 @@
 
         <section class="innerElement">
             <div class="FirstElement HeaderContent">
-                <p><i>“Time and health are two precious assets that we don’t recognize and </p>
-                <p>appreciate until they have beendepleted.”</i> - – Denis Waitley </p>
+                <p>“Time and health are two precious assets that we don’t recognize and </p>
+                <p>appreciate until they have beendepleted.” - – Denis Waitley </p>
         </section>
     </div>
     <section class="bodyPart">
-        <div class="about bodyContent">
-            <p>A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
-                professionals with background of marketing/sales and manufacturing from to Pharma national &
-                multinational companies, joined hands together with motto of care & concern for healthy & longer life as
-                their guiding principle. Quality, availability within the affordable reach of the patient & complete
-                customer satisfaction are just a few mentions worthy factors that contributed immesely to our growth.
+        <div class="about bodyContent elementbottomborder">
+            <p>With a vision to sustain in the competitive market, EuPHEME PHARMACEUTICALS, incepted in 2022 and
+                currently being proving as a reputed wholesaler and Pharmaceutical brand. Our offered range consists of
+                best grade Pharmaceutical Tablets, Pharmaceutical Injections and Pharmaceutical Capsules. To preparing
+                these products with following quality norms, our vendor's professionals use nontoxic and top quality
+                ingredients. Our products are appreciated for their features like high quality, accurate composition,
+                hygienic packaging and long shelf life. Additionally, We are also offering Pharmaceutical Service to our
+                valued clients. 
             </p>
         </div>
-        <div class="vision bodyContent centerAlignPara">
+        <div class="vision bodyContent centerAlignPara elementbottomborder">
             <p class="visionTitle">"Vision & Mission"</p>
-            <p><i>"Our vision is to be a global pharmaceutical company with increasing focus on innovative research and
-                    developed markets."</br>
-                    "Our Mission is to be a caring pharmaceutical company helping to enhance health through quality
-                    products."</i>
+            <p>"Our vision is to be a global pharmaceutical company with high quality product at affordable
+                rates."
             </p>
         </div>
-        <div class="mission bodyContent">
+        <div class="mission bodyContent elementbottomborder">
+            <p class="visionTitle">Why us?</p>
             <p>A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
                 professionals with background of marketing/sales and manufacturing from to Pharma national &
                 multinational companies, joined hands together with motto of care & concern for healthy & longer life as
                 their guiding principle. Quality, availability within the affordable reach of the patient & complete
                 customer satisfaction are just a few mentions worthy factors that contributed immesely to our growth.
+            </p> </br>
+
+            <p> We are continuously working to expand the medicine range considering market demand and affordibility. We
+                are in communication with various healthcare professionals to expand our business model and are getting
+                very strong responses.
+            </p>
+
             </p>
         </div>
-        <div class="product bodyContent">
-            <div class="productList">
-                <img src="./common/products.jpg" alt="" class="productImage">
-                <p> <b> Product 1</b></p>
-                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
-                    professionals with background of marketing/sales and manufacturing</p>
+
+        <div class="productContainer">
+            <div class="titleContainer bodyContent">
+                <p class="visionTitle">Our Products</p>
             </div>
-            <div class="productList">
-                <img src="./common/products.jpg" alt="" class="productImage">
-                <p> <b> Product 2</b></p>
-                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
-                    professionals with background of marketing/sales and manufacturing</p>
-                
-            </div>
-            <div class="productList">
-                <img src="./common/products.jpg" alt="" class="productImage">
-                <p> <b> Product 3</b></p>
-                <p class="productDescription">A pharmaceutical company, came into existence when a group of commited, dedicated & experienced
-                    professionals with background of marketing/sales and manufacturing</p>
+
+
+            <div class="product bodyContent">
+                <div class="productList">
+                    <img src="./common/Deflapheme.jpg" alt="Deflapheme" class="productImage">
+                    <p> <b>Deflapheme</b></p>
+                    <p class="productDescription">Immunosuppressant &
+                        Anti-Inflammatory Corticosteroid
+                        A Leap Ahead From Others....
+                    </p>
+                </div>
+                <div class="productList">
+                    <img src="./common/euphepan.jpg" alt="euphepan" class="productImage">
+                    <p> <b>Euphepan</b></p>
+                    <p class="productDescription">
+                        The first choice Pantoprazole for ulcers
+                    </p>
+
+                </div>
+                <div class="productList">
+                    <img src="./common/Euphevita.jpg" alt="Euphevita" class="productImage">
+                    <p> <b>Euphevita</b></p>
+                    <p class="productDescription">Choose the right option for restoring
+                        uutritional deficiencies</p>
+                </div>
+
+                <div class="productList">
+                    <img src="./common/parapheme.jpg" alt="parapheme" class="productImage">
+                    <p> <b>Parapheme</b></p>
+                    <p class="productDescription">The Safe and Superior
+                        Analgesic to Relieve
+                        Painful Inflammatory
+                        Conditions</p>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -100,12 +130,12 @@
     });
 
     const nodeList = document.querySelectorAll('.menuItems');
-nodeList.forEach((items,index)=>{
-items.addEventListener('click', () => {
+    nodeList.forEach((items, index) => {
+        items.addEventListener('click', () => {
 
-        alert("Please wait till site get ready")
+            alert("Please wait till site get ready")
+        });
     });
-});
 </script>
 
 </html>
