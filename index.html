@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Eupheme healthcare pvt ltd</title>
     <script>
 
@@ -18,8 +19,8 @@
         <nav class="navbar">
             <div class="logo"> <img src="../Eupheme/common/logo.png" alt=""></div>
             <ul class="navlist">
-                <li> <a class="menuItems"> Home </a> </li>
-                <li><a class="menuItems"> Services </a> </li>
+                <li> <a class="menuItems" href="index.html"> Home </a> </li>
+                <li><a class="menuItems" href="products.html"> Products </a> </li>
                 <li><a class="menuItems"> Contact </a></li>
                 <li><a class="menuItems"> About us </a></li>
             </ul>
@@ -80,7 +81,8 @@
 
             <div class="product bodyContent">
                 <div class="productList">
-                    <img src="./common/Deflapheme.jpg" alt="Deflapheme" class="productImage">
+                    <a href="products.html#deflapheme"><img src="./common/Deflapheme.jpg" alt="Deflapheme" class="productImage">
+                    </a>
                     <p> <b>Deflapheme</b></p>
                     <p class="productDescription">Immunosuppressant &
                         Anti-Inflammatory Corticosteroid
@@ -88,7 +90,7 @@
                     </p>
                 </div>
                 <div class="productList">
-                    <img src="./common/euphepan.jpg" alt="euphepan" class="productImage">
+                    <a href="products.html#euphepan"> <img src="./common/euphepan.jpg" alt="euphepan" class="productImage"></a>
                     <p> <b>Euphepan</b></p>
                     <p class="productDescription">
                         The first choice Pantoprazole for ulcers
@@ -96,14 +98,14 @@
 
                 </div>
                 <div class="productList">
-                    <img src="./common/Euphevita.jpg" alt="Euphevita" class="productImage">
+                    <a href="products.html#euphevita"> <img src="./common/Euphevita.jpg" alt="Euphevita" class="productImage"></a>
                     <p> <b>Euphevita</b></p>
                     <p class="productDescription">Choose the right option for restoring
                         uutritional deficiencies</p>
                 </div>
 
                 <div class="productList">
-                    <img src="./common/parapheme.jpg" alt="parapheme" class="productImage">
+                    <a href="products.html#parapheme"> <img src="./common/parapheme.jpg" alt="parapheme" class="productImage"></a>
                     <p> <b>Parapheme</b></p>
                     <p class="productDescription">The Safe and Superior
                         Analgesic to Relieve
@@ -129,13 +131,13 @@
         list.classList.toggle('visible');
     });
 
-    const nodeList = document.querySelectorAll('.menuItems');
-    nodeList.forEach((items, index) => {
-        items.addEventListener('click', () => {
+    // const nodeList = document.querySelectorAll('.menuItems');
+    // nodeList.forEach((items, index) => {
+    //     items.addEventListener('click', () => {
 
-            alert("Please wait till site get ready")
-        });
-    });
+    //         alert("Please wait till site get ready")
+    //     });
+    // });
 </script>
 
 </html>

@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-size: 16px;
     color: #2e2e2e;
     font-family: "Roboto", sans-serif;
@@ -22,20 +22,9 @@ body{
     text-shadow: none;
     text-transform: none;
     /* background: azure; */
-    
+
 }
 
-
-
-.background {
-    background: rgba(0, 0, 0, 0.7) url(../common//bg.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
-    height: 500px;
-    max-height: 37vw;
-    overflow: hidden;
-    
-}
 
 
 .logo {
@@ -63,7 +52,7 @@ body{
     background: rgba(0, 0, 0, 0.7) url(../common/bg.jpg);
     background-size: cover;
     background-blend-mode: darken;
-    
+
 
 }
 
@@ -81,13 +70,14 @@ body{
     text-align: center;
 }
 
-.burger{
+.burger {
     width: 30px;
     height: 1px;
     background-color: white;
     margin-top: 6px;
 
 }
+
 .burgerMain {
     margin: 3px 8px 0px 0px;
     width: 30%;
@@ -99,7 +89,8 @@ body{
 .navlist li a {
     text-decoration: none;
     color: white;
-   
+    cursor: pointer;
+
 }
 
 .navlist li a:hover {
@@ -125,6 +116,8 @@ body{
 
 .FirstElement {
     width: 100%;
+    animation-name: example;
+    animation-duration: 2s;
 }
 
 /* Body part CSS starts here */
@@ -137,21 +130,20 @@ body{
 }
 
 
-.about p {
+.about p {}
 
-}
 .bodyContent {
     padding: 16px;
-
-    background-color: white ;
-    text-align: justify;
+    background-color: white;
+    /* text-align: justify; */
     margin: auto;
     width: 80%;
-    /* overflow-x: auto; */
-    overflow-x: scroll;
+    overflow-y: hidden;
+    /* overflow-x: scroll; */
     justify-content: start;
     align-items: center;
-    overflow: hidden;
+    cursor:point;
+    /* overflow: hidden; */
 }
 
 p.visionTitle {
@@ -189,8 +181,9 @@ p.visionTitle {
     object-fit: cover;
     padding-top: 30px;
 }
+
 .productList p {
-padding: 8px;
+    padding: 8px;
 
 }
 
@@ -205,7 +198,7 @@ p.productDescription {
 }
 
 .productList:hover {
-  scale: 1.1;
+    scale: 1.1;
 }
 
 
@@ -215,7 +208,7 @@ p.productDescription {
 /* footer starts here */
 .footer {
     background: grey;
-    
+
     line-height: 1.5;
     text-align: center;
     height: 100%;
@@ -228,10 +221,25 @@ p.productDescription {
 }
 
 
-    /* footer ends here */
+/* footer ends here */
 
-    .elementbottomborder{
-        border-bottom: 1px solid;
-        /* border-style: groove; */
-        border-bottom-style: groove;
+.elementbottomborder {
+    border-bottom: 1px solid;
+    /* border-style: groove; */
+    border-bottom-style: groove;
+}
+
+/* Animation */
+
+@keyframes example {
+    from {
+        margin-top: -300px;
     }
+
+    /* to {
+        margin-top: 30%;
+    } */
+}
+
+/* 
+      Animation ends here */

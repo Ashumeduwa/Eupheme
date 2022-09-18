@@ -11,6 +11,7 @@
 
     .bodyContent {
         padding: 8px;
+        overflow-x: auto;
         /* font-size: 11px; */
 
     }
@@ -20,14 +21,15 @@
         height: 86%;
     }
 
-    .background {
+    /* .background {
         background: rgba(0, 0, 0, 0.7) url(../common/bg.jpg);
         background-size: cover;
         background-blend-mode: darken;
         height: 800px;
         max-height: 70vw;
-        overflow: hidden;
-    }
+        overflow-x: auto;
+        overflow-y: hidden;
+    } */
 
     .bodyPart {
         margin-top: 8px;
@@ -76,12 +78,45 @@
     }
     .bodyContent {
         /* flex-direction: column; */
-        overflow: scroll;
+  
         width: 80%;
         height: 60%;
         align-items: center;
         justify-content: flex-start;
         
     }
+
+
+
+}
+
+
+@media screen and (max-width: 933px) {
+
+        /* this is for the product page */
+
+        .prodictSubContainer{
+            flex-direction:column;
+        }
+    
+        img.productItemImage {
+            max-width: 100%;
+            width: auto;
+            max-height: 100%;
+        }
+
+        .prodictSubContainer {
+      
+            width: 100%;
+     
+        }
+
+        .productDescription {
+            display: flex;
+            flex-direction: column;
+            /* background-color: aqua; */
+            margin: 8px 0px;
+        }
+        /* End of this is for the product page */
 
 }
