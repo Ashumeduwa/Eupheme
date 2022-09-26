@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- <link rel="stylesheet" href="css/product.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Eupheme healthcare pvt ltd</title>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="header background ">
+        <nav class="navbar">
+            <div class="logo"> <a href="href=" index.html""> <img src="../Eupheme/common/logo.png" alt=""></a></div>
+            <ul class="navlist">
+                <li> <a class="menuItems" href="index.html"> Home </a> </li>
+                <li><a class="menuItems" href="products.html"> Products </a> </li>
+                <li><a class="menuItems" href="contact.html"> Contact </a></li>
+          
+            </ul>
+            <div class="burgerMain">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </nav>
+
+
+
+        <section class="innerElement">
+            <div class="FirstElement HeaderContent">
+                <p>Shop no 3, Saket Iris, Kailash Nagar, Katemanivali </p>
+                <p>a Kalyan East, Maharashtra 421306</p>
+        </section>
+    </div>
+    <section class="bodyPart">
+        <div class="contactiFrame commoniFrame">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.3346303129756!2d73.1435669151773!3d19.224242652291032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be794480d7f52d3%3A0x930abf8cb97ffc55!2sSaket%20Iris!5e0!3m2!1sen!2sin!4v1664176074016!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        <div class="Contacttext commoniFrame">
+            <iframe class ='iframeForm' src="https://docs.google.com/forms/d/e/1FAIpQLSeYgCqCiaohsQikB0zUhJfyRQWecIYMvibQSRH2p-dCOd3JDw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+        </div>
+
+        </div>
+
+        
+        <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+            defer></script>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p>
+            © 2022 Eupheme Healthcare Pvt. Ltd. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+<script>
+    const list = document.querySelector(".navlist")
+    const burger = document.querySelector(".burgerMain")
+    burger.addEventListener('click', () => {
+
+        list.classList.toggle('visible');
+    });
+
+    // const nodeList = document.querySelectorAll('.menuItems');
+    // nodeList.forEach((items, index) => {
+    //     items.addEventListener('click', () => {
+
+    //         alert("Please wait till site get ready")
+    //     });
+    // });
+
+
+    window.initMap = initMap;
+</script>
+
+</html>

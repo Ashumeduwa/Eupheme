@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: #2e2e2e;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    /* background: azure; */
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(../common/contact-us-iphone.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 540px;
+    max-height: 40vw;
+    overflow: hidden;
+    /* background-repeat: no-repeat; */
+    /* background-repeat: unset; */
+    background-position: center;
+}
+
+
+
+.logo {
+    width: 20%;
+    /* background-color: yellowgreen; */
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 20px;
+    padding-top: 6px;
+
+}
+
+.logo img {
+    width: 74%;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 0.1px solid gray; */
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7) url(../common/contact-us-iphone.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.navlist li {
+    list-style: none;
+    /* background-color: black; */
+    padding: 13px 12px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.burger {
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    margin-top: 6px;
+
+}
+
+.burgerMain {
+    margin: 3px 8px 0px 0px;
+    width: 30%;
+    text-align: -webkit-right;
+    text-align: -moz-right;
+    display: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.navlist li a:hover {
+    color: gray;
+}
+
+.innerElement {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    height: 86%;
+}
+
+.HeaderContent {
+    /* background-color: yellow; */
+
+    color: white;
+    margin-left: 16px;
+    margin-top: 40%;
+}
+
+
+.FirstElement {
+    width: 100%;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+/* Body part CSS starts here */
+
+
+element.style {
+}
+.bodyPart {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 16px 48px;
+}
+.about p {}
+
+.bodyContent {
+    padding: 16px;
+    background-color: white;
+    /* text-align: justify; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    overflow-y: hidden;
+    /* overflow-x: scroll; */
+    justify-content: start;
+    align-items: center;
+    cursor:point;
+    /* overflow: hidden; */
+}
+
+p.visionTitle {
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 30px;
+    padding-bottom: 16px;
+}
+
+.centerAlignPara {
+    text-align: center;
+}
+
+/* productis */
+
+.product {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.productList {
+    transition: scale 1s;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin: 16px;
+    min-width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.productList img {
+    width: 80%;
+    object-fit: cover;
+    padding-top: 30px;
+}
+
+.productList p {
+    padding: 8px;
+
+}
+
+p.productDescription {
+    /* background: aliceblue; */
+    height: 100%;
+    border-top: 1px solid;
+    /* border-style: groove; */
+    border-top-style: groove;
+    padding: 8px 0px;
+    margin: 0px 8px;
+}
+
+.productList:hover {
+    scale: 1.1;
+}
+
+
+/* Products end here */
+
+
+/* footer starts here */
+.footer {
+    background: grey;
+
+    line-height: 1.5;
+    text-align: center;
+    height: 100%;
+    color: white;
+    margin: auto;
+}
+
+.titleContainer {
+    padding-top: 16px;
+}
+
+
+/* footer ends here */
+
+.elementbottomborder {
+    border-bottom: 1px solid;
+    /* border-style: groove; */
+    border-bottom-style: groove;
+}
+
+.contactiFrame {
+    margin: 0 auto;
+    height: 500px;
+    overflow: hidden;
+    width: 39%;
+}
+
+.Contacttext {
+    margin: auto;
+    width: 50%;
+    /* background: antiquewhite; */
+}
+
+.iframeForm {
+    margin: auto;
+}
+
+iframe {
+    height: 1200px;
+    width: 100%;
+}
+
+/* Animation */
+
+@keyframes example {
+    from {
+        margin-top: -300px;
+    }
+
+    /* to {
+        margin-top: 30%;
+    } */
+}
+
+/* 
+      Animation ends here */
